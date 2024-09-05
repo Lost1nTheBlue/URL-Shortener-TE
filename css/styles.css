@@ -1,0 +1,126 @@
+/* Стили для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Стили для контейнера формы */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Стили для метки и текстового поля */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Стили для кнопки отправки */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Стили для кнопки при наведении */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Стили для метки и текста внизу */
+div > lable {
+    font-weight: bold;
+    color: #333;
+}
+
+.short-url {
+    padding: 10px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center; /* Центрирование текста */
+}
+
+.short-url a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.short-url a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Для закругленных углов */
+}
+
+.log-table th, .log-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+.log-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.log-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.log-table tr:last-child td {
+    border-bottom: none;
+}
+
+.log-table td {
+    word-break: break-word;
+}
